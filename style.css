@@ -1,23 +1,22 @@
-/* 1. Center align h1, div, and p */
+
 h1, div, p {
     text-align: center;
 }
 
-/* 2. White background for HTML tag */
+
 html {
     background-color: white;
 }
 
-/* 3. Light blue background for body, 600px width, and dotted border */
+
 body {
     background-color: lightblue;
     width: 600px;
-    margin: 0 auto; /* This centers the 600px box on the screen */
+    margin: 0 auto; 
     border: 2px dotted grey;
 }
 
-/* 4. Tahoma font, red color, and 40px size for hometown */
-/* Since your hometown is in a div, we target the div */
+
 div {
     font-family: Tahoma, sans-serif;
     color: red;
